@@ -1,0 +1,326 @@
+body{
+  background-color: white;
+  border-radius: 20px;
+}
+.my-section {
+  padding: 50px;
+  margin: 50px;
+
+
+  
+}
+.container-fluid{
+background-color: transparent;
+border-radius : 20px;
+}
+
+.d-block{
+  border-radius: 20px;
+}
+
+.boton2{
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.inicio{
+  font-size: 20px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+.card{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.dropdown{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  background-color: transparent;
+  width: 30rem;
+}
+.titulo_categoria{
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+
+}
+.comentario{
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.navbar{
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.navegavidad{
+  border-radius: 50px;
+  font-family: 'Rubik', sans-serif;
+  
+
+}
+
+.btn{
+  border-radius: 50px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.btncursos{
+  border-radius: 50px;
+  font-family: 'Rubik', sans-serif;
+  border-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .show {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+  }
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+.dropdown-menu{
+  border-radius: 10px;
+}
+
+.barra{
+  border-radius: 5px;
+  position: fixed;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.card-img-top{
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.l{
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.text-center{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  
+  border-color: black;
+}
+
+.text-center2{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  border-color: black;
+  text-align: center;
+}
+
+.text-init{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.d-flex{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+p{
+  border-radius: 10px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.text-reset{
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center, justify;
+}
+
+.fa-home{
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+section{
+  background-color: rgba(240, 248, 229, 0.089);
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.text-black{
+  background-color: t;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 50px;
+  color: black;
+  text-decoration: solid;
+  text-align: center;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.parrafo{
+  text-decoration: black;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-container p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.central{
+  text-align: center;
+}
+
+.imagenfooter{
+  width: 1920;
+  height: 880;
+}
+
+.navbar-toggler{
+  .hamburguer-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    padding: 0;
+    position: relative;
+    width: 30px;
+  }
+  
+  .hamburguer-line {
+    background-color: #333;
+    border-radius: 3px;
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .hamburguer-line:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .hamburguer-line:nth-child(3) {
+    bottom: 0;
+  }
+  
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* color de fondo del navbar */
+  z-index: 9999; /* para que el navbar esté por encima de cualquier otro elemento */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #333; /* color del texto del navbar */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #f2f2f2; /* color de fondo del elemento del navbar al pasar el cursor por encima */
+}
+.Categoria{
+  text-align: center;
+  padding: 14px 16px;
+font-size: 30px;
+}

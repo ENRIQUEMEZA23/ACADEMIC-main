@@ -1,0 +1,55 @@
+.icon{
+    height: auto;
+    width: 40px;
+}
+
+.Whatsapp{
+    background: rgb(38, 202, 23);
+    border: green;
+    box-shadow: gray 5px 5px 10px 5px;
+}
+
+.Whatsapp:hover{
+    background: green;
+    border: green;
+}
+
+.WhatsApp_icon{
+    height: 30px;
+}
+
+.Inscripcion{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background: green;
+    color: white;
+}
+
+.btn:hover{
+    background: rgb(9, 212, 9);
+    color: white;
+}
+
+.links_pago{
+    padding: 15px 30px;
+    background: rgb(251, 252, 251);
+    text-decoration: none;
+    color: rgb(1, 192, 10);
+    border-radius: 30px;
+    border: solid 1px;
+    
+}
+
+.links_pago:hover{
+    padding: 20px 35px;
+    background: rgb(2, 168, 2);
+    text-decoration: none;
+    color: rgb(229, 241, 230);
+    border-radius: 30px;
+    border: solid 1px;
+    transition: all .5s;
+    
+}
