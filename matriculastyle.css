@@ -49,3 +49,12 @@
     transition: all .5s;
     
 }
+.imagen_atencion{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+	
+}
+.cabeza__nav{
+    background: rgba(2, 255, 15, 0.527);
+}
