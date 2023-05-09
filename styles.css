@@ -32,8 +32,13 @@ border-radius : 20px;
 .card{
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
 }
-
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
 .dropdown{
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
@@ -136,13 +141,13 @@ nav {
     font-family: 'Rubik', sans-serif;
   }
 
-footer {
+  footer {
   background-color: #333;
   padding: 10px;
   text-align: center;
   font-family: 'Rubik', sans-serif;
   color: white;
-}
+  }
 
 .dropdown-menu{
   border-radius: 10px;
@@ -322,5 +327,5 @@ nav li a:hover {
 .Categoria{
   text-align: center;
   padding: 14px 16px;
-font-size: 30px;
+  font-size: 30px;
 }

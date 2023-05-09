@@ -2,6 +2,11 @@
     background-image: url(imagenes/borrador.jpg);
     padding: 35%;
 }
+.m1{
+  background-color: #ffd792;
+  color: #000;
+  font-size: 20px;
+}
 h1{
     font-size: 50px;
 }
@@ -15,6 +20,7 @@ h1{
     background: rgb(255, 255, 255);
     border-radius: 10px;
     font-size: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 .texto p{
   text-align: justify;
@@ -46,7 +52,6 @@ footer p {
   .text-center{
     border-radius: 20px;
     font-family: 'Rubik', sans-serif;
-    
     border-color: black;
   }
   
