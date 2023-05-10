@@ -1,6 +1,26 @@
 body{
-  background-color: white;
+  background-color: rgba(216, 214, 214, 0.61);
   border-radius: 20px;
+}
+.navbar{
+  border-radius: 10px;
+}
+.casa{
+  width: 40px;
+  height: auto;
+  align-items: center;
+}
+.arriba{
+  position: relative;
+  color: #333;
+  border-radius: 20px;
+  z-index: 100;
+  width: 100%;
+  
+}
+.abajo{
+  position: fixed;
+
 }
 .my-section {
   padding: 50px;
@@ -32,13 +52,8 @@ border-radius : 20px;
 .card{
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
 }
-.card:hover{
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-}
+
 .dropdown{
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
@@ -58,11 +73,6 @@ border-radius : 20px;
   text-align: justify;
 }
 
-.navbar{
-  border-radius: 10px;
-  font-family: 'Rubik', sans-serif;
-}
-
 .navegavidad{
   border-radius: 50px;
   font-family: 'Rubik', sans-serif;
@@ -80,34 +90,6 @@ border-radius : 20px;
   font-family: 'Rubik', sans-serif;
   border-color: black;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333;
-    font-family: 'Rubik', sans-serif;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Rubik', sans-serif;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    font-family: 'Rubik', sans-serif;
-  }
-  
-  nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
-  }
   
   .dropdown {
     position: relative;
@@ -141,13 +123,13 @@ nav {
     font-family: 'Rubik', sans-serif;
   }
 
-  footer {
+footer {
   background-color: #333;
   padding: 10px;
   text-align: center;
   font-family: 'Rubik', sans-serif;
   color: white;
-  }
+}
 
 .dropdown-menu{
   border-radius: 10px;
@@ -157,7 +139,6 @@ nav {
   border-radius: 5px;
   position: fixed;
 }
-
 footer p {
   margin: 0;
   font-family: 'Rubik', sans-serif;
@@ -165,7 +146,6 @@ footer p {
 
 .card-img-top{
   border-radius: 20px;
-  justify-content: center;
 }
 
 .l{
@@ -260,72 +240,14 @@ section{
   width: 1920;
   height: 880;
 }
-
-.navbar-toggler{
-  .hamburguer-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: block;
-    height: 30px;
-    padding: 0;
-    position: relative;
-    width: 30px;
-  }
-  
-  .hamburguer-line {
-    background-color: #333;
-    border-radius: 3px;
-    display: block;
-    height: 3px;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .hamburguer-line:nth-child(2) {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .hamburguer-line:nth-child(3) {
-    bottom: 0;
-  }
-  
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff; /* color de fondo del navbar */
-  z-index: 9999; /* para que el navbar esté por encima de cualquier otro elemento */
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: #333; /* color del texto del navbar */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  background-color: #f2f2f2; /* color de fondo del elemento del navbar al pasar el cursor por encima */
-}
 .Categoria{
   text-align: center;
   padding: 14px 16px;
-  font-size: 30px;
+font-size: 30px;
+}
+.contenedor{
+  margin: 10px
+}
+.logop{
+  width: 400px;
 }
