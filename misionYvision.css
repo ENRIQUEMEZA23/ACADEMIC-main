@@ -1,0 +1,23 @@
+.logop{
+  width: 100px !important;
+}
+.navbar{
+  border-radius: 10px;
+}
+.casa{
+  width: 40px;
+  height: auto;
+  align-items: center;
+}
+.arriba{
+  position: relative;
+  color: #333;
+  border-radius: 20px;
+  z-index: 100;
+  width: 100%;
+  
+}
+.abajo{
+  position: fixed;
+
+}
