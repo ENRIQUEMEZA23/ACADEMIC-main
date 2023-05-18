@@ -10,16 +10,17 @@
     border: green;
     box-shadow: gray 5px 5px 10px 5px;
     font-size: 20px;
-  color: white;
-  font-family: 'Rubik', sans-serif;
+    color: white;
+    border-radius: 10px !important;
+    font-family: 'Rubik', sans-serif;
 }
 
 .Whatsapp:hover{
     background: green;
     border: green;
     font-size: 20px;
-  color: white;
-  font-family: 'Rubik', sans-serif;
+    color: white;
+    font-family: 'Rubik', sans-serif;
 }
 
 footer{
@@ -27,8 +28,8 @@ footer{
 }
 
 .WhatsApp_icon{
-    height: 30px;
-    font-size: 20px;
+  height: 30px;
+  font-size: 20px;
   color: white;
   font-family: 'Rubik', sans-serif;
 }

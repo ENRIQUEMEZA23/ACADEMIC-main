@@ -14,26 +14,58 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="cabeza">
-        <div class="contenedor_nav">
-            <nav class="cabeza__nav navbar navbar-expand-lg position-fix">
-                <div class="float-right container-fluid">
-                  <div class="logo.container" >
-                    <img src="imagenes/academic logo2.png" alt="Logo" width="140" height="50" class="d-inline-block align-text-top me-1">
-                  </div>
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                   <span class="navbar-toggler-icon"></span>
-                 </button>
-                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                   <div class="bottons__container navbar-nav">
-                     <a class="navbar__bottons nav-link" href="index.html">Inicio</a>
-        
-                   </div>
-                 </div>
-               </div>
-             </nav>
-        </div>
-    </header>
+    <!-- INICIO NAVBAR -->
+<header class="arriba">
+  <nav class="navbar bg-body-tertiary">
+    <a class="navbar-brand" href="/index.html"><img src="/imagenes/academic logo2p.png" alt="image"></a>
+<div class="container-flui" style="margin: 10px;" >
+  <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+    <span><i><img class="casa" src="imagenes/Casa.png" alt=""></i></span>
+  </button>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bievenidos a Academic</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="matriculate.html">Matricúlate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="matriculate.html">Pagos en línea</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://parquesoftsucre.net/">Descarga tu certificado de Startup week</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="buzon.html">Buzón de PSQR</a>
+        </li>
+        <li class="nav-item"> 
+          <a class="nav-link active" aria-current="page" href="bienestar.html">Bienestar intitucional</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Entidad
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="misionYvision.html">Misión y visión</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+</header>
+<!-- FIN DE NAVBAR -->
     <article>
       <br>
 
@@ -60,20 +92,20 @@
        <section class="terminos">
         <div class="text-center">
             <b> <h2>1. Leer terminos y condiciones del programa.</h2></b>
-            <p>Da clic en el boton para ver los terminos y condiciones</p>
+            <p class="text-center">Da clic en el boton para ver los terminos y condiciones</p>
             <br><button type="button" class="btn">Terminos y condiciones</button>
         </div>
         <br>
         <hr>
         <div class="text-center"> <b><h2>2. Realizar pago.</h2></b>
-            <p>*al realizar el pago se asume que se aceptan los terminos y conciciones</p>
+            <p class="text-center">Al realizar el pago se asume que se aceptan los terminos y conciciones</p>
 
               <div class="card_contenedor">
                 <div class="card-group">
                     <div class="card">
                       <div class="card-body">
                         <h5 class="card-title">Financiacion</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <br><br>
                         <p>$294.000</p>
                         <br><br>
