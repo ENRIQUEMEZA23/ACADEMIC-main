@@ -2,7 +2,7 @@
     background: center;
     }
     .m1{
-      background-color: #a8ca9b;
+      background-color: #7cb069;
       color: #000;
       font-size: 20px;
     }
@@ -174,7 +174,7 @@
       }
       .card .back {
         transform: perspective(600px) rotateY(180deg);
-        background: rgba(233, 175, 18, 0.541);
+        background: #7cb069;
         padding: 15px;
         color: #0c0c0c;
         display: flex;

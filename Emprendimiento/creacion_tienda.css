@@ -2,7 +2,7 @@
     background: center;
     }
     .m1{
-      background-color: #e9f2e6;
+      background-color: #bdd7b4;
       color: #000;
       font-size: 20px;
     }
@@ -98,7 +98,6 @@
       }
       
       .text-black{
-        background-color: t;
         font-family: 'Rubik', sans-serif;
         border-radius: 50px;
         color: black;
@@ -174,7 +173,7 @@
       }
       .card .back {
         transform: perspective(600px) rotateY(180deg);
-        background: rgba(233, 175, 18, 0.541);
+        background: #bdd7b4;
         padding: 15px;
         color: #0c0c0c;
         display: flex;
