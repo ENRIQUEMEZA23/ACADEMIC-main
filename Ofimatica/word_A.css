@@ -119,6 +119,7 @@
         text-align: center;
       }
       .logo-container {
+        font-family: 'Rubik', sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
