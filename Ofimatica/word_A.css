@@ -1,18 +1,27 @@
 .image2{
     background: center;
     }
+
+    *{
+      font-family: 'Rubik', sans-serif !important;
+      font-size: 16px;
+      font-family: 'Rubik', sans-serif;
+  }
     .m1{
       background-color: #44befb;
       color: #000;
       font-size: 20px;
+      font-family: 'Rubik', sans-serif;
     }
     h1{
         font-size: 50px;
+        font-family: 'Rubik', sans-serif;
     }
     .contenedor{
         display: flex;
         justify-content: center;
-        height: 500px;   
+        height: 500px;  
+        font-family: 'Rubik', sans-serif; 
     }
     .texto{
         color: #030000;
@@ -20,19 +29,23 @@
         border-radius: 10px;
         font-size: 20px;
         font-family: 'Rubik', sans-serif;
+        font-family: 'Rubik', sans-serif;
     }
     .texto p{
       text-align: justify;
+      font-family: 'Rubik', sans-serif;
     }
     .fila1{
         display: flex;
         justify-content: center;
+        font-family: 'Rubik', sans-serif;
         font-size: medium;
     
         
     }
     .titulo_modulos{
         text-align: center;
+        font-family: 'Rubik', sans-serif;
     }
     footer p {
         margin: 0;

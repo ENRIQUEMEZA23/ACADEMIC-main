@@ -20,14 +20,10 @@ body{
 }
 .abajo{
   position: fixed;
-
 }
 .my-section {
   padding: 50px;
-  margin: 50px;
-  
-
-  
+  margin: 50px;  
 }
 .container-fluid{
 background-color: transparent;
