@@ -102,3 +102,17 @@ footer{
 .logop{
   width: 400px;
 }
+
+.fila-tarjetas {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tarjeta {
+    width: auto;
+    background-color: #a6d8b9;
+    padding: 10px; /* Añade relleno interno a las tarjetas */
+    margin-bottom: 10px; /* Añade un margen inferior entre las tarjetas */
+    border-radius: 15px;
+  }
+  
