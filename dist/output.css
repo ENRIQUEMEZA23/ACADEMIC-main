@@ -556,6 +556,22 @@ video {
   }
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -580,6 +596,22 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.table {
+  display: table;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-white {
