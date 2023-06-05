@@ -92,6 +92,14 @@ footer{
     font-family: 'Rubik', sans-serif;
 }
 
+.titulo_categoria1{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    background-color: #aadba6;
+    color: transparent;
+  }
+
 .cabeza__nav{
     background: #fff;
     font-size: 20px;
