@@ -279,6 +279,7 @@ section{
 .logop{
   height: 100%;
   width: auto;
+  text-align: center;
 }
 
 .contenedor_logo{
@@ -304,4 +305,12 @@ td, th {
   padding: 8px; /* Añade un espacio de relleno dentro de las celdas */
   text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
   border-color: transparent;
+}
+.imagenFooter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.containerF{
+  width: 99.9%;
 }
