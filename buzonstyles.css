@@ -4,6 +4,24 @@
     font-family: 'Rubik', sans-serif;
 }
 
+table {
+    width: 100%; /* Establece el ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse; /* Fusiona los bordes de las celdas */
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+  
+  td, th, tr {
+    border: 1px solid #dddddd; /* Establece el borde de las celdas */
+    padding: 8px; /* Añade un espacio de relleno dentro de las celdas */
+    text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+    border-color: transparent;
+    color: transparent;
+  }
+
 .buzoninicio{
     
     font-size: 30px;
@@ -72,7 +90,7 @@ section{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 600px;
+  height: 180px;
   border-radius: 20px;
   font-family: 'Rubik', sans-serif;
 }
