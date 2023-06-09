@@ -1,6 +1,13 @@
 .image2{
     background: center;
     }
+
+    *{
+      font-family: 'Rubik', sans-serif !important;
+      font-size: 18px;
+      font-family: 'Rubik', sans-serif;
+    }
+    
     .m1{
       background-color: #6dccfb;
       color: #000;
